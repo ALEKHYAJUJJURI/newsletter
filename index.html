@@ -1,57 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="style.css"/>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
- 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <!-- Sign-up form start -->
- 
-<div class="body-con">
-  <div class="bg-con">
-      <img class="image" src="assets/images/illustration-sign-up-mobile.svg" alt="image"/>
-   <div class="botom-card">
-    <div class="card-con">
-      <h1>Stay updated!</h1>
-    <p>Join 60,000+ product managers receiving monthly updates on:</p>
-    <div class="inside-card">
-      <img src="assets/images/icon-list.svg"/>
-      <p class="checked-ele">Product discovery and building what matters</p>
-    </div>
-    <div class="inside-card">
-      <img src="assets/images/icon-list.svg"/>
-      <p>Measuring to ensure updates are a success</p>
-    </div>
-    <div class="inside-card">
-      <img src="assets/images/icon-list.svg"/>
-      <p>And much more!</p>
-    </div>
-    </div>
-    <div class="inside-card1">
-      
-      <label  for = "email">Email Address<span id="errorMsg"></span></label>
-      <input id="email" type = "text" placeholder="email@company.com" class="form-control "/>
- <a target="_blank" id="button1"><button id="btnBtn">Subscribe to monthly newsletter</button></a>
-    </div>
-   </div>
-   <img class="image1" src="assets/images/illustration-sign-up-desktop.svg"/>
-  </div>
-</div>
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
 
-<!-- Success msg-->
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sign-up form start -->
 
-<script src="script.js"></script>
-</body>
+    <div class="body-con">
+      <div class="bg-con">
+        <img
+          class="image"
+          src="assets/images/illustration-sign-up-mobile.svg"
+          alt="image"
+        />
+        <div class="botom-card">
+          <div class="card-con">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <div class="inside-card">
+              <img src="assets/images/icon-list.svg" />
+              <p class="checked-ele">
+                Product discovery and building what matters
+              </p>
+            </div>
+            <div class="inside-card">
+              <img src="assets/images/icon-list.svg" />
+              <p>Measuring to ensure updates are a success</p>
+            </div>
+            <div class="inside-card">
+              <img src="assets/images/icon-list.svg" />
+              <p>And much more!</p>
+            </div>
+          </div>
+          <div class="inside-card1">
+            <label for="email">Email Address<span id="errorMsg"></span></label>
+            <input
+              id="email"
+              type="text"
+              placeholder="email@company.com"
+              class="form-control"
+            />
+            <a target="_blank" id="button1"
+              ><button id="btnBtn">Subscribe to monthly newsletter</button></a
+            >
+          </div>
+        </div>
+        <img
+          class="image1"
+          src="assets/images/illustration-sign-up-desktop.svg"
+        />
+      </div>
+    </div>
+
+    <!-- Success msg-->
+
+    <script src="script.js"></script>
+  </body>
 </html>
