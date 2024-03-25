@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.bg-con{
+    background-color: #fff;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-con{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+.inside-card{
+    display: flex;
+    flex-direction:row ;
+    gap:10px;
+}
+.inside-card1{
+    display: flex;
+    flex-direction:column ;
+    gap:10px;
+    padding:5px 10px;
+}
+button{
+    background-color: hsl(235, 18%, 26%);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0px;
+}
+.body-con{
+    height: 100vh;
+}
+label{
+    display: flex;
+    justify-content: space-between;
+}
+.image1{
+    display: none;
+}
+@media screen and (min-width:324px) and (max-width:900px){
+    .bg-con{
+        background-size: cover;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+        height: 100%;
+    }
+    .botom-card{
+        align-self: center;
+    }
+    
+    .success-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1440px) {
+    .image{
+        display: none;
+    }
+    .image1{
+        display: block;
+        height: 100%;
+    }
+    .success-bg-con{
+        background-color: hsl(234, 29%, 20%) ;
+    }
+    .bg-con{
+        width: 700px;
+        padding: 20px;
+        height: 400px;
+        flex-direction: row;
+        justify-content: space-around;
+        border-radius: 10px;
+        margin: 20px 0px 20px 0px;
+    }
+    .botom-card{
+       padding: 20px 20px;
+    }
+    .body-con{
+        background-color: hsl(234, 29%, 20%);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       
+    }
+    
+}
+input{
+    padding: 10px;
+    border: 0px;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+.error-mail {
+    color: hsl(4, 100%, 67%);
+   background-color: hsl(4, 58%, 95%);
+    border-color:  hsl(4, 100%, 67%);
+    padding: 10px;
+    border: 0px;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+
+.success-card{
+    background-color: #fff;
+    width: 300px;
+   
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.success-bg-con {
+   
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.success-card button{
+    background-color: hsl(234, 29%, 20%);
+    
+}
+.button-hover:hover{
+    background-color: hsl(4, 100%, 67%);
+    cursor: pointer;
+}
+
